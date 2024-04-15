@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class MultiplicationTable extends Model
 {
     use HasFactory;
+
+    protected $fillable = ['dimension', 'data'];
 }
